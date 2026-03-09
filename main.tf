@@ -10,5 +10,5 @@ output "pet_name"{
 
 resource "local_file" "sample"{
   filename=var.filename
-  content="This is a sample file"
+  content="This is a sample file created by me"
 }
